@@ -141,6 +141,6 @@ def predict():
         text = "the person is diagnosed with : " + str(result)
         return render_template("index.html",result=text)
     
-if __name__=="__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+if _name_ == '_main_':
+    port = int(os.environ.get("PORT", 10000))  # Default to 10000 for local testing
+    app.run(host='0.0.0.0', port=port)
