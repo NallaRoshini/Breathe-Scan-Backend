@@ -116,3 +116,4 @@ wrapt
 xgboost
 xyzservices
 huggingface_hub
+dotenv
